@@ -8,15 +8,27 @@
 
 #import "BNRHypnosisView.h"
 
+@interface BNRHypnosisView ()
+
+@property (strong, nonatomic) UIColor *circleColor;
+
+@end
+
 @implementation BNRHypnosisView
+
+-(void)setCircleColor:(UIColor *)circleColor
+{
+    _circleColor = circleColor;
+    [self setNeedsDisplay];
+}
 
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
         // All BNRHypnosisViews start with a clear background colour
-        self.backgroundColor = [UIColor clearColor]; 
-        
+        self.backgroundColor = [UIColor clearColor];
+        self.circleColor = [UIColor lightGrayColor];
     }
     return self;
 }
@@ -47,12 +59,28 @@
     }
     
     path.lineWidth = 10;
-    [[UIColor lightGrayColor] setStroke]; 
+    [self.circleColor setStroke];
     
     // draw the line!
     [path stroke];
     
     [[UIImage imageNamed:@"sunglass_doge.png"] drawInRect:rect]; 
+}
+
+// when a finger touches the screen
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    NSLog(@"%@ was touched", self);
+    
+    // get 3 random numbers between 0 amd 1
+    float red = (arc4random() % 100) /100.0;
+    float green = (arc4random() % 100) /100.0;
+    float blue = (arc4random() % 100) /100.0;
+    
+    UIColor *randomColor = [UIColor colorWithRed:red green:green blue:blue alpha:1.0];
+    
+    self.circleColor = randomColor;
+    
 }
 
 

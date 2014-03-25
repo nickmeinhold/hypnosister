@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C809228A18DFF389004A06F8 /* sunglass_doge.png in Resources */ = {isa = PBXBuildFile; fileRef = C809228918DFF389004A06F8 /* sunglass_doge.png */; };
+		7DD5C52D18DFFA69009760BB /* sunglass_doge.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DD5C52C18DFFA69009760BB /* sunglass_doge.png */; };
 		C8FDDA1118DFD57900FBBCF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FDDA1018DFD57900FBBCF8 /* Foundation.framework */; };
 		C8FDDA1318DFD57900FBBCF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FDDA1218DFD57900FBBCF8 /* CoreGraphics.framework */; };
 		C8FDDA1518DFD57900FBBCF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8FDDA1418DFD57900FBBCF8 /* UIKit.framework */; };
@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C809228918DFF389004A06F8 /* sunglass_doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunglass_doge.png; sourceTree = "<group>"; };
+		7DD5C52C18DFFA69009760BB /* sunglass_doge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunglass_doge.png; sourceTree = "<group>"; };
 		C8FDDA0D18DFD57900FBBCF8 /* Hypnosister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hypnosister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8FDDA1018DFD57900FBBCF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8FDDA1218DFD57900FBBCF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,7 +82,7 @@
 		C8FDDA0418DFD57900FBBCF8 = {
 			isa = PBXGroup;
 			children = (
-				C809228918DFF389004A06F8 /* sunglass_doge.png */,
+				7DD5C52C18DFFA69009760BB /* sunglass_doge.png */,
 				C8FDDA1618DFD57900FBBCF8 /* Hypnosister */,
 				C8FDDA2F18DFD57900FBBCF8 /* HypnosisterTests */,
 				C8FDDA0F18DFD57900FBBCF8 /* Frameworks */,
@@ -228,7 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C809228A18DFF389004A06F8 /* sunglass_doge.png in Resources */,
+				7DD5C52D18DFFA69009760BB /* sunglass_doge.png in Resources */,
 				C8FDDA1B18DFD57900FBBCF8 /* InfoPlist.strings in Resources */,
 				C8FDDA2318DFD57900FBBCF8 /* Images.xcassets in Resources */,
 			);
